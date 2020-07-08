@@ -8,6 +8,4 @@ router.get('/', function(req, res, next) {
 router.get('/home', function(req, res){
   res.send('hi 555555');
 });
-
-
 module.exports = router;
